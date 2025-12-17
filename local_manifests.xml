@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="frstprjkt" fetch="https://github.com/frstprjkt" clone-depth="1" />
+
+    <!-- Repos -->
+    <project path="device/samsung/sm7125-common" name="device_samsung_sm7125-common" remote="frstprjkt" revision="sixteen" />
+    <project path="device/samsung/a72q" name="device_samsung_a72q" remote="frstprjkt" revision="sixteen" />
+
+    <project path="kernel/samsung/sm7125" name="matei9/valeryn_samsung_sm7125" remote="github" revision="aosp" clone-depth="1" />
+
+    <project path="vendor/samsung/sm7125-common" name="vendor_samsung_sm7125-common" remote="frstprjkt" revision="sixteen" />
+    <project path="vendor/samsung/a72q" name="vendor_samsung_a72q" remote="frstprjkt" revision="sixteen" />
+
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-23.0" />
+
+</manifest>
